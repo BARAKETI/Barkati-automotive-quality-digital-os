@@ -1,0 +1,15 @@
+{
+  "name": "barkati-quality-os-azure",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Connected Quality OS with optional Node hosting backend",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "start": "node backend/server.cjs",
+    "test": "npm --prefix frontend test && node --test backend/tests/server.test.cjs",
+    "verify": "node frontend/tests/mutations.cjs && npm --prefix frontend run check"
+  }
+}

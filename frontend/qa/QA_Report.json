@@ -1,0 +1,50 @@
+{
+  "release": "Connected Quality OS 1.0.0",
+  "release_date": "2026-10-29",
+  "status": "Engineering release for controlled pilot review",
+  "automated": {
+    "engine_and_workflow_tests": 42,
+    "passed": 42,
+    "targeted_mutations_detected": 4,
+    "targeted_mutations_total": 4,
+    "DOM_stub_render_combinations": 72,
+    "embedded_download_byte_comparisons": 3,
+    "inline_script_syntax_checks": 5
+  },
+  "independent_reference": "NumPy/SciPy fixtures; R/qcc documentation consulted but R/qcc was not executed",
+  "workbook": {
+    "sheets": 5,
+    "formula_error_scan": 0,
+    "numeric_engine_comparisons": "pass",
+    "dispersion_mutation": "pass",
+    "open_action_count": 1,
+    "visual_review": "Five worksheet excerpts inspected; corrected Actions excerpt reviewed after recalculation",
+    "native_Excel_tested": false
+  },
+  "browser": {
+    "earlier_observed": [
+      "Overview visual inspection",
+      "Crossed GRR calculation",
+      "Save study as evidence",
+      "SPC signal to investigation",
+      "Blocked 8D gates"
+    ],
+    "final_pass": "Blocked by browser URL security policy after preview restart; no workaround attempted",
+    "not_tested": [
+      "Final standalone file in a desktop file:// browser",
+      "Physical iOS or Android devices",
+      "All editable forms and download controls end-to-end",
+      "Print-to-PDF across viewers"
+    ]
+  },
+  "offline": "Runtime scripts/styles inline, no runtime network API found, workbook and guides embedded and byte-verified. External source hyperlinks require internet.",
+  "limitations": [
+    "Single-user local case store",
+    "No remote LLM",
+    "No live SAP/Q-DAS/Minitab connector",
+    "Technical content English; EN/FR/DE navigation only",
+    "Official AP table must be supplied by an authorized user",
+    "No enterprise deployment qualification or zero-defect guarantee"
+  ],
+  "archive_verification": "See RELEASE_VERIFICATION.json in the delivered folder for final extraction and hash results."
+}

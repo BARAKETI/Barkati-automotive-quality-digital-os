@@ -1,0 +1,1 @@
+{"name":"barkati-quality-os-connected","version":"1.0.0","private":true,"description":"Offline-first connected quality engineering workbench","scripts":{"test":"node --test tests/engine.test.cjs tests/workflow.test.cjs","build":"node tools/build.cjs","check":"node tools/check.cjs"},"engines":{"node":">=20"}}

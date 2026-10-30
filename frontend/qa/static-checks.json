@@ -1,0 +1,9 @@
+{
+  "scriptCompilation": "pass",
+  "networkDependencyScan": "pass",
+  "offlineEmbeddedAssets": "pass",
+  "embeddedCompanionByteComparisons": 3,
+  "offlineScriptCompilation": 5,
+  "renderSmokeChecks": 72,
+  "note": "Render smoke checks use a DOM stub, not a browser. Separate browser checks are documented in QA_Report.json."
+}

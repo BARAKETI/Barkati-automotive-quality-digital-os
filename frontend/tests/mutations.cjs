@@ -1,0 +1,7 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),R=require('../fixtures/reference.json');const src=fs.readFileSync(require.resolve('../src/engine.js'),'utf8');const load=s=>{const context={module:{exports:{}},console};vm.createContext(context);vm.runInContext(s,context);return context.module.exports;};const approx=(a,b)=>assert.ok(Math.abs(a-b)<1e-8);
+const mutants=[
+ ['wrong subgroup constant','5:2.326','5:2.500',e=>approx(e.spc(R.groups).within,R.spc.within)],
+ ['monitoring contaminates baseline','const bg=groups.slice(0,base)','const bg=groups',e=>approx(e.spc([...R.groups,[11,11,11,11,11]],{baseline:25}).center,R.spc.center)],
+ ['dispersion signals omitted','...disp.signals.map','...[].map',e=>assert.ok(e.spc([...R.groups,[9.5,9.8,10,10.2,10.5]],{baseline:25}).signals.some(x=>x.chart==='Range'))],
+ ['population SD replaces sample SD','/(a.length-1)','/a.length',e=>approx(e.spc(R.groups).overall,R.spc.overall)]
+];let results=[];for(const [name,from,to,probe] of mutants){assert.ok(src.includes(from),name+' mutation target absent');probe(load(src));let killed=false;try{probe(load(src.replace(from,to)));}catch{killed=true;}assert.ok(killed,'Surviving mutation: '+name);results.push({name,detected:true});}fs.mkdirSync('qa',{recursive:true});fs.writeFileSync('qa/mutation-results.json',JSON.stringify(results,null,2));console.log(results.length+' / '+results.length+' targeted statistical mutations detected.');

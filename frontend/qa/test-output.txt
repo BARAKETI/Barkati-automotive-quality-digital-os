@@ -1,0 +1,54 @@
+
+> barkati-quality-os-connected@1.0.0 test
+> node --test tests/engine.test.cjs tests/workflow.test.cjs
+
+✔ SPC matches independent NumPy reference (2.651865ms)
+✔ Frozen baseline ignores subsequent shift for limit estimation (0.631782ms)
+✔ Range chart detects a dispersion change even when mean stays centred (1.322022ms)
+✔ Incomplete subgroups rejected, not truncated (0.445438ms)
+✔ Unsupported subgroup constants never substitute n=5 (0.191553ms)
+✔ Zero within variation rejected (0.235457ms)
+✔ Blank cells cannot become zero (0.608999ms)
+✔ Text/headers and malformed decimals rejected (0.351779ms)
+✔ CSV supports quotes, tab, semicolon and trailing newline (1.182275ms)
+✔ I MR baseline and moving ranges (0.455703ms)
+✔ Xbar S bias correction (0.491615ms)
+✔ t distribution and critical values independently checked (4.207872ms)
+✔ c4 values independently checked (0.198203ms)
+✔ Bias CI and p value match SciPy (0.368304ms)
+✔ Type 1 changes bias penalty without changing Cg (0.448402ms)
+✔ crossed GRR matches independent array ANOVA (1.376983ms)
+✔ nested GRR matches independent array ANOVA (0.441512ms)
+✔ Unbalanced GRR and wrong design rejected (0.396395ms)
+✔ Known unweighted Kappa (0.26391ms)
+✔ Linearity and regression known slope (0.640685ms)
+✔ Attribute chart weighting and invalid counts (0.441352ms)
+✔ Histogram retains every observation, including upper edge (0.278551ms)
+✔ Pareto aggregates duplicate categories (0.266564ms)
+✔ Binomial acceptance independently checked, including extremes (0.175829ms)
+✔ Zero investment blocked; zero benefit is not zero-month payback (0.159586ms)
+✔ AP missing/invalid tuple never inferred from RPN (0.354403ms)
+✔ Attribute chart rejects surplus or missing columns (0.135831ms)
+✔ Synthetic demonstration is valid but not approved (3.805118ms)
+✔ JSON round-trip preserves study and records (3.045356ms)
+✔ D3 cannot pass with undocumented zero stock (0.321585ms)
+✔ Accepted cause without test/evidence cannot pass D4 (0.63007ms)
+✔ Review gates require signed evidence, not status labels alone (0.299041ms)
+✔ APQP N/A does not bypass a required item (0.382074ms)
+✔ Changes invalidate human closure (0.305081ms)
+✔ Duplicate IDs and invalid enums rejected on import (1.199592ms)
+✔ Impossible containment quantities rejected (0.551284ms)
+✔ Legacy import migrates measurements but no legacy approval booleans (1.750475ms)
+✔ Missing references surfaced (0.346071ms)
+✔ Complete synthetic evidence chain enables all eight gates (1.345396ms)
+✔ Incomplete falsification test blocks D4 even if cause is accepted (0.661266ms)
+✔ Imported revision cannot inject HTML (0.20976ms)
+✔ Malformed optional saved analyses rejected before rendering (1.226601ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 117.953681

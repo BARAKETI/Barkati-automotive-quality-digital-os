@@ -1,0 +1,709 @@
+{
+  "schemaVersion": "barkati.quality.case.1",
+  "id": "VALIDATION-8D",
+  "title": "Terminal characteristic — synthetic signal investigation",
+  "synthetic": true,
+  "owner": "Synthetic quality owner",
+  "customer": "Demonstration only",
+  "product": "DEMO-TERMINAL",
+  "process": "Forming / inspection",
+  "equipment": "PRESS-DEMO",
+  "characteristic": "CH-01",
+  "revision": 1,
+  "spec": {
+    "name": "Width",
+    "unit": "mm",
+    "lsl": 9.98,
+    "usl": 10.02,
+    "required": 1.33,
+    "drawing": "Synthetic specification"
+  },
+  "study": {
+    "mode": "xbarR",
+    "baseline": 25,
+    "extended": false,
+    "groups": [
+      [
+        9.996,
+        9.99988,
+        10.0022,
+        10.00476,
+        9.99983
+      ],
+      [
+        9.99719,
+        9.99969,
+        10.00075,
+        10.00297,
+        9.99885
+      ],
+      [
+        9.99567,
+        9.99793,
+        9.99987,
+        10.00353,
+        10.00049
+      ],
+      [
+        9.9949,
+        9.99861,
+        10.00156,
+        10.00516,
+        10.00102
+      ],
+      [
+        9.99663,
+        10.00018,
+        10.00197,
+        10.00415,
+        9.99923
+      ],
+      [
+        9.99692,
+        9.99907,
+        10.00017,
+        10.0028,
+        9.99919
+      ],
+      [
+        9.99511,
+        9.9978,
+        10.00026,
+        10.00418,
+        10.00099
+      ],
+      [
+        9.99533,
+        9.99927,
+        10.00204,
+        10.00515,
+        10.00053
+      ],
+      [
+        9.99708,
+        10.00012,
+        10.00145,
+        10.0035,
+        9.99886
+      ],
+      [
+        9.99638,
+        9.99842,
+        9.99984,
+        10.00299,
+        9.99979
+      ],
+      [
+        9.99482,
+        9.99804,
+        10.00087,
+        10.00478,
+        10.0012
+      ],
+      [
+        9.99595,
+        9.99984,
+        10.0022,
+        10.00479,
+        9.99988
+      ],
+      [
+        9.99719,
+        9.99973,
+        10.0008,
+        10.003,
+        9.99883
+      ],
+      [
+        9.99572,
+        9.99795,
+        9.99986,
+        10.00349,
+        10.00044
+      ],
+      [
+        9.99488,
+        9.99856,
+        10.00152,
+        10.00515,
+        10.00104
+      ],
+      [
+        9.99659,
+        10.00017,
+        10.002,
+        10.0042,
+        9.99927
+      ],
+      [
+        9.99695,
+        9.99911,
+        10.0002,
+        10.0028,
+        9.99916
+      ],
+      [
+        9.99514,
+        9.9978,
+        10.00022,
+        10.00414,
+        10.00096
+      ],
+      [
+        9.99529,
+        9.99922,
+        10.00201,
+        10.00516,
+        10.00057
+      ],
+      [
+        9.99705,
+        10.00014,
+        10.0015,
+        10.00354,
+        9.99888
+      ],
+      [
+        9.99642,
+        9.99846,
+        9.99985,
+        10.00297,
+        9.99974
+      ],
+      [
+        9.99483,
+        9.99801,
+        10.00082,
+        10.00475,
+        10.0012
+      ],
+      [
+        9.99591,
+        9.99981,
+        10.0022,
+        10.00483,
+        9.99993
+      ],
+      [
+        9.9972,
+        9.99976,
+        10.00085,
+        10.00302,
+        9.99882
+      ],
+      [
+        9.99576,
+        9.99798,
+        9.99984,
+        10.00344,
+        10.0004
+      ],
+      [
+        10.00287,
+        10.00652,
+        10.00948,
+        10.01313,
+        10.00907
+      ],
+      [
+        10.00455,
+        10.00816,
+        10.01002,
+        10.01224,
+        10.00731
+      ],
+      [
+        10.00498,
+        10.00716,
+        10.00824,
+        10.0108,
+        10.00713
+      ],
+      [
+        10.00318,
+        10.0058,
+        10.00819,
+        10.01209,
+        10.00894
+      ],
+      [
+        10.00325,
+        10.00717,
+        10.00999,
+        10.01317,
+        10.00861
+      ]
+    ]
+  },
+  "governance": {
+    "msaEvidence": "",
+    "modelEvidence": "",
+    "reviewer": ""
+  },
+  "investigation": {
+    "team": "Synthetic team",
+    "what": "Synthetic width failure",
+    "where": "Demo process",
+    "when": "Demo lot",
+    "howMany": "10 demo units",
+    "isNot": "Other demo lots",
+    "lessons": "Review related tool and product families",
+    "approver": "Synthetic reviewer",
+    "approvalReference": "DEMO-APPROVAL",
+    "closureDate": "2026-10-26"
+  },
+  "evidence": [
+    {
+      "id": "EV-1",
+      "title": "Synthetic evidence",
+      "source": "Test fixture",
+      "statement": "Simulated verified observation; not a customer result.",
+      "verifiedBy": "Synthetic reviewer"
+    }
+  ],
+  "tests": [
+    {
+      "id": "T-0",
+      "causeId": "C-0",
+      "name": "Synthetic test",
+      "method": "Simulation only",
+      "expectedIfTrue": "Reproduction",
+      "expectedIfFalse": "No reproduction",
+      "result": "Synthetic reproduction",
+      "conclusion": "supports",
+      "owner": "Synthetic test owner"
+    },
+    {
+      "id": "T-1",
+      "causeId": "C-1",
+      "name": "Synthetic test",
+      "method": "Simulation only",
+      "expectedIfTrue": "Reproduction",
+      "expectedIfFalse": "No reproduction",
+      "result": "Synthetic reproduction",
+      "conclusion": "supports",
+      "owner": "Synthetic test owner"
+    },
+    {
+      "id": "T-2",
+      "causeId": "C-2",
+      "name": "Synthetic test",
+      "method": "Simulation only",
+      "expectedIfTrue": "Reproduction",
+      "expectedIfFalse": "No reproduction",
+      "result": "Synthetic reproduction",
+      "conclusion": "supports",
+      "owner": "Synthetic test owner"
+    }
+  ],
+  "causes": [
+    {
+      "id": "C-0",
+      "lane": "occurrence",
+      "label": "Synthetic occurrence cause",
+      "status": "accepted",
+      "evidenceId": "EV-1",
+      "testId": "T-0",
+      "acceptedBy": "Synthetic reviewer"
+    },
+    {
+      "id": "C-1",
+      "lane": "escape",
+      "label": "Synthetic escape cause",
+      "status": "accepted",
+      "evidenceId": "EV-1",
+      "testId": "T-1",
+      "acceptedBy": "Synthetic reviewer"
+    },
+    {
+      "id": "C-2",
+      "lane": "systemic",
+      "label": "Synthetic systemic cause",
+      "status": "accepted",
+      "evidenceId": "EV-1",
+      "testId": "T-2",
+      "acceptedBy": "Synthetic reviewer"
+    }
+  ],
+  "actions": [
+    {
+      "id": "A-0",
+      "causeId": "C-0",
+      "title": "Synthetic corrective action",
+      "owner": "Synthetic owner",
+      "due": "2026-10-26",
+      "criteria": "Synthetic acceptance criterion",
+      "sideEffects": "Synthetic review",
+      "status": "effective",
+      "verification": "Synthetic implementation record",
+      "validation": "Synthetic effectiveness record",
+      "verifiedBy": "Synthetic reviewer",
+      "effectivenessDate": "2026-10-26",
+      "evidenceId": "EV-1"
+    },
+    {
+      "id": "A-1",
+      "causeId": "C-1",
+      "title": "Synthetic corrective action",
+      "owner": "Synthetic owner",
+      "due": "2026-10-26",
+      "criteria": "Synthetic acceptance criterion",
+      "sideEffects": "Synthetic review",
+      "status": "effective",
+      "verification": "Synthetic implementation record",
+      "validation": "Synthetic effectiveness record",
+      "verifiedBy": "Synthetic reviewer",
+      "effectivenessDate": "2026-10-26",
+      "evidenceId": "EV-1"
+    },
+    {
+      "id": "A-2",
+      "causeId": "C-2",
+      "title": "Synthetic corrective action",
+      "owner": "Synthetic owner",
+      "due": "2026-10-26",
+      "criteria": "Synthetic acceptance criterion",
+      "sideEffects": "Synthetic review",
+      "status": "effective",
+      "verification": "Synthetic implementation record",
+      "validation": "Synthetic effectiveness record",
+      "verifiedBy": "Synthetic reviewer",
+      "effectivenessDate": "2026-10-26",
+      "evidenceId": "EV-1"
+    }
+  ],
+  "exposure": [
+    {
+      "id": "X-1",
+      "location": "supplier",
+      "quantity": 0,
+      "checked": 0,
+      "rejected": 0,
+      "method": "Synthetic stock check",
+      "cleanPoint": "Synthetic documented zero",
+      "owner": "Synthetic owner",
+      "evidenceId": "EV-1"
+    },
+    {
+      "id": "X-2",
+      "location": "plant",
+      "quantity": 0,
+      "checked": 0,
+      "rejected": 0,
+      "method": "Synthetic stock check",
+      "cleanPoint": "Synthetic documented zero",
+      "owner": "Synthetic owner",
+      "evidenceId": "EV-1"
+    },
+    {
+      "id": "X-3",
+      "location": "warehouse",
+      "quantity": 0,
+      "checked": 0,
+      "rejected": 0,
+      "method": "Synthetic stock check",
+      "cleanPoint": "Synthetic documented zero",
+      "owner": "Synthetic owner",
+      "evidenceId": "EV-1"
+    },
+    {
+      "id": "X-4",
+      "location": "transit",
+      "quantity": 0,
+      "checked": 0,
+      "rejected": 0,
+      "method": "Synthetic stock check",
+      "cleanPoint": "Synthetic documented zero",
+      "owner": "Synthetic owner",
+      "evidenceId": "EV-1"
+    },
+    {
+      "id": "X-5",
+      "location": "customer",
+      "quantity": 0,
+      "checked": 0,
+      "rejected": 0,
+      "method": "Synthetic stock check",
+      "cleanPoint": "Synthetic documented zero",
+      "owner": "Synthetic owner",
+      "evidenceId": "EV-1"
+    }
+  ],
+  "risks": [
+    {
+      "id": "D-01",
+      "domain": "Design",
+      "function": "Fit within assembly",
+      "failure": "Interference",
+      "effect": "Assembly cannot be completed",
+      "cause": "Tolerance assumption",
+      "s": 7,
+      "o": 3,
+      "d": 4,
+      "parentId": "",
+      "prevention": "Tolerance study",
+      "detection": "Assembly validation",
+      "owner": "",
+      "actionId": "",
+      "review": "Draft"
+    },
+    {
+      "id": "P-01",
+      "domain": "Process",
+      "function": "Form specified width",
+      "failure": "Excessive width",
+      "effect": "Interference in assembly",
+      "cause": "Tool condition hypothesis",
+      "s": 7,
+      "o": 4,
+      "d": 5,
+      "parentId": "D-01",
+      "prevention": "Setup verification",
+      "detection": "Dimensional inspection",
+      "owner": "",
+      "actionId": "",
+      "review": "Draft"
+    },
+    {
+      "id": "E-01",
+      "domain": "Equipment",
+      "function": "Maintain forming geometry",
+      "failure": "Tool wear",
+      "effect": "Process variation",
+      "cause": "Wear mechanism hypothesis",
+      "s": 7,
+      "o": 4,
+      "d": 5,
+      "parentId": "P-01",
+      "prevention": "Tool inspection",
+      "detection": "Condition check",
+      "owner": "",
+      "actionId": "",
+      "review": "Draft"
+    }
+  ],
+  "controlPlan": [
+    {
+      "id": "CP-01",
+      "riskId": "P-01",
+      "characteristic": "CH-01",
+      "method": "Dimensional measurement",
+      "frequency": "Define rational subgroup plan",
+      "reaction": "Hold suspect lot and investigate",
+      "revision": "DEMO-2",
+      "approvedBy": "Synthetic reviewer",
+      "evidenceId": "EV-1"
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "AP-01",
+      "name": "Customer requirements",
+      "phase": "Planning",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-02",
+      "name": "Design record / change level",
+      "phase": "Planning",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-03",
+      "name": "Process flow",
+      "phase": "Planning",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-04",
+      "name": "DFMEA interface",
+      "phase": "Planning",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-05",
+      "name": "PFMEA",
+      "phase": "Product design",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-06",
+      "name": "Control Plan",
+      "phase": "Product design",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-07",
+      "name": "Measurement-system evidence",
+      "phase": "Product design",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-08",
+      "name": "Dimensional results",
+      "phase": "Product design",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-09",
+      "name": "Material / performance results",
+      "phase": "Process design",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-10",
+      "name": "Initial process study",
+      "phase": "Process design",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-11",
+      "name": "Laboratory scope",
+      "phase": "Process design",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-12",
+      "name": "Appearance applicability",
+      "phase": "Process design",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-13",
+      "name": "Production sample",
+      "phase": "Validation",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-14",
+      "name": "Master sample applicability",
+      "phase": "Validation",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-15",
+      "name": "Checking aids",
+      "phase": "Validation",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-16",
+      "name": "Customer-specific requirements",
+      "phase": "Validation",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-17",
+      "name": "Capacity / run-at-rate",
+      "phase": "Launch & feedback",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    },
+    {
+      "id": "AP-18",
+      "name": "Submission / disposition",
+      "phase": "Launch & feedback",
+      "required": true,
+      "status": "Open",
+      "owner": "",
+      "due": "",
+      "reference": "",
+      "approvedBy": ""
+    }
+  ],
+  "audits": [],
+  "apTable": null,
+  "roi": {
+    "investment": 109000,
+    "baseline": 400000,
+    "reduction": 0.1,
+    "attribution": 0.7
+  },
+  "auditLog": [],
+  "createdAt": "2026-10-26T14:02:33.802Z",
+  "updatedAt": "2026-10-26T14:02:33.802Z"
+}

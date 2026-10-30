@@ -1,0 +1,27 @@
+[
+  {
+    "archive": "Barkati_Digital_Quality_OS_Lab_R1_Netlify.zip",
+    "sha256": "987e1936acd9338d2a6fd2207de2c0596dba3cedcc5da2d9f725241da8301098",
+    "files": 109
+  },
+  {
+    "archive": "Barkati_Web_Productionization_R1_COMPLETE.zip",
+    "sha256": "dff9d69328931a924895abebf7a55dc5af783cd8423401d050eca7818f6e2fbe",
+    "files": 604
+  },
+  {
+    "archive": "TopQM_R5_COMPLETE_PRIVATE_2026-10-26.zip",
+    "sha256": "f4ec42728c02929f42452c2d9e41009b7cfec87a740f19fac526f15952f5a04f",
+    "files": 21
+  },
+  {
+    "archive": "BAPSI_Serverless_R1_GitHub_Netlify.zip",
+    "sha256": "44878f0e8551195562257bec4b013bc614dfda9f5ae3d812dd7c65ec9bdbea9e",
+    "files": 194
+  },
+  {
+    "archive": "barkati_automotive_quality_digital_os_master_control_center_FINAL.zip",
+    "sha256": "7ea18742930501c6a30c722c243ed84885f48e30eeb8a180a8eaf536028bb49f",
+    "files": 82
+  }
+]
